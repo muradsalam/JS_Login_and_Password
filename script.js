@@ -2,7 +2,7 @@ let login = prompt('Bura logininizi yazin.');
 let password = prompt('Bura parolunuzu yazin.');
 let netice;
 
-switch (login, password) {
+switch (true) {
     case (login = 'admin') && (password = '123456'):
         netice = 'Salam Admin! Sayti redakte ede bilersiniz.'
         break;
